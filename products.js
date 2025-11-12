@@ -39,9 +39,9 @@ const products = [
       <i>מוצר פרקטי, איכותי וממותג שמתאים כמתנה לעובדים, לקוחות או לכנסים עסקיים.</i>
       `,
      images: [
-        "/images/Power Bank 1.jpg",
-        "/images/Power Bank 2.png",
-        "/images/Power Bank 3.jpg",
+        "/images/power-bank-1.jpg",
+        "/images/power-bank-2.png",
+        "/images/power-bank-3.jpg",
   ],
   },
   {
@@ -58,10 +58,10 @@ const products = [
       <i>מוצר מושלם למיתוג חברות, מתנות לעובדים ולאירועים עסקיים יוקרתיים.</i>
       `,
     images: [
-      "/images/DiskOnKey-crystal 1.jpg",
-      "/images/DiskOnKey-crystal 2.jpg",
-      "/images/DiskOnKey-crystal 3.jpg",
-      "/images/DiskOnKey-crystal 4.jpg",
+      "/images/diskonkey-crystal-1.jpg",
+      "/images/diskonkey-crystal-2.jpg",
+      "/images/diskonkey-crystal-3.jpg",
+      "/images/diskonkey-crystal-4.jpg",
     ],
   },
   {
@@ -79,11 +79,11 @@ const products = [
       <i>מוצר פרקטי, מקצועי ואלגנטי למיתוג חברות ומתנות לעובדים.</i>
       `,
     images: [
-      "/images/DiskOnKey 1.png",
-      "/images/DiskOnKey 2.png",
-      "/images/DiskOnKey 3.jpg",
-      "/images/DiskOnKey 4.png",
-      "/images/DiskOnKey 5.png",
+      "/images/diskonkey-1.png",
+      "/images/diskonkey-2.png",
+      "/images/diskonkey-3.jpg",
+      "/images/diskonkey-4.png",
+      "/images/diskonkey-5.png",
     ],
   },
   {
@@ -102,16 +102,16 @@ const products = [
       <i>פתרון נוח ובריא לעובדים במשרד או בבית – מתנה שימושית וממותגת שכל אחד יאהב.</i>
       `,
     images: [
-      "/images/Mousepad 1.jpg",
-      "/images/Mousepad 2.png",
-      "/images/Mousepad 3.jpg",
-      "/images/Mousepad 4.jpg",
-      "/images/Mousepad 5.jpg",
-      "/images/Mousepad 6.jpg",
-      "/images/Mousepad 7.jpg",
-      "/images/Mousepad 8.jpg",
-      "/images/Mousepad 9.jpg",
-      "/images/Mousepad 10.jpg",
+      "/images/mousepad-1.jpg",
+      "/images/mousepad-2.png",
+      "/images/mousepad-3.jpg",
+      "/images/mousepad-4.jpg",
+      "/images/mousepad-5.jpg",
+      "/images/mousepad-6.jpg",
+      "/images/mousepad-7.jpg",
+      "/images/mousepad-8.jpg",
+      "/images/mousepad-9.jpg",
+      "/images/mousepad-10.jpg",
     ],
   },
   {
