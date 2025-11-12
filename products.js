@@ -39,9 +39,9 @@ const products = [
       <i>מוצר פרקטי, איכותי וממותג שמתאים כמתנה לעובדים, לקוחות או לכנסים עסקיים.</i>
       `,
      images: [
-        "/images/power-bank-1.jpg",
-        "/images/power-bank-2.png",
-        "/images/power-bank-3.jpg",
+        "./images/power-bank-1.jpg",
+        "./images/power-bank-2.png",
+        "./images/power-bank-3.jpg",
   ],
   },
   {
@@ -58,10 +58,10 @@ const products = [
       <i>מוצר מושלם למיתוג חברות, מתנות לעובדים ולאירועים עסקיים יוקרתיים.</i>
       `,
     images: [
-      "/images/diskonkey-crystal-1.jpg",
-      "/images/diskonkey-crystal-2.jpg",
-      "/images/diskonkey-crystal-3.jpg",
-      "/images/diskonkey-crystal-4.jpg",
+      "./images/diskonkey-crystal-1.jpg",
+      "./images/diskonkey-crystal-2.jpg",
+      "./images/diskonkey-crystal-3.jpg",
+      "./images/diskonkey-crystal-4.jpg",
     ],
   },
   {
@@ -79,11 +79,11 @@ const products = [
       <i>מוצר פרקטי, מקצועי ואלגנטי למיתוג חברות ומתנות לעובדים.</i>
       `,
     images: [
-      "/images/diskonkey-1.png",
-      "/images/diskonkey-2.png",
-      "/images/diskonkey-3.jpg",
-      "/images/diskonkey-4.png",
-      "/images/diskonkey-5.png",
+      "./images/diskonkey-1.png",
+      "./images/diskonkey-2.png",
+      "./images/diskonkey-3.jpg",
+      "./images/diskonkey-4.png",
+      "./images/diskonkey-5.png",
     ],
   },
   {
@@ -102,16 +102,16 @@ const products = [
       <i>פתרון נוח ובריא לעובדים במשרד או בבית – מתנה שימושית וממותגת שכל אחד יאהב.</i>
       `,
     images: [
-      "/images/mousepad-1.jpg",
-      "/images/mousepad-2.png",
-      "/images/mousepad-3.jpg",
-      "/images/mousepad-4.jpg",
-      "/images/mousepad-5.jpg",
-      "/images/mousepad-6.jpg",
-      "/images/mousepad-7.jpg",
-      "/images/mousepad-8.jpg",
-      "/images/mousepad-9.jpg",
-      "/images/mousepad-10.jpg",
+      "./images/mousepad-1.jpg",
+      "./images/mousepad-2.png",
+      "./images/mousepad-3.jpg",
+      "./images/mousepad-4.jpg",
+      "./images/mousepad-5.jpg",
+      "./images/mousepad-6.jpg",
+      "./images/mousepad-7.jpg",
+      "./images/mousepad-8.jpg",
+      "./images/mousepad-9.jpg",
+      "./images/mousepad-10.jpg",
     ],
   },
   {
@@ -120,7 +120,7 @@ const products = [
     price: "החל מ-₪30 ליחידה",
     minOrder: "מינימום הזמנה: 50 יחידות",
     description: "בקבוק תרמי איכותי לשמירה על חום וקור. מושלם למיתוג חברה.",
-    images: ["/images/product-bottle.jpg"],
+    images: ["./images/product-bottle.jpg"],
   },
   {
     id: "backup-usb",
@@ -128,7 +128,7 @@ const products = [
     price: "החל מ-₪30 ליחידה",
     minOrder: "מינימום הזמנה: 50 יחידות",
     description: "כונן נייד חכם עם חיבור USB, Type-C ו-Lightning – אידיאלי לגיבוי מכל מכשיר.",
-    images: ["/images/product-USB.jpg"],
+    images: ["./images/product-USB.jpg"],
   },
 ];
 
