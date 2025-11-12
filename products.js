@@ -18,10 +18,10 @@ const products = [
       <i>מושלם למיתוג חברות, מתנות לעובדים או קידום מכירות.</i>
       `,
     images: [
-      "/images/mini-speaker-1.jpg",
-      "/images/Mini Speaker 2.jpg",
-      "/images/Mini Speaker 3.jpg",
-      "/images/Mini Speaker 4.jpg",
+      "./images/mini-speaker-1.jpg",
+      "./images/mini-speaker-2.jpg",
+      "./images/mini-speaker-3.jpg",
+      "./images/mini-speaker-4.jpg",
     ],
   },
   {
