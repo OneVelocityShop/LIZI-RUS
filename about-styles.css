@@ -1,0 +1,144 @@
+/* ===== ABOUT PAGE ONLY ===== */
+
+/* Hero */
+.about-hero {
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+              url('images/hero-banner.gif') center/cover no-repeat;
+  color: #fff;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.about-hero .container {
+  max-width: 900px;
+}
+
+.about-hero h1 {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.about-hero p {
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+/* Two-column cards */
+.about-grid {
+  background: var(--background-color);
+  padding: 60px 0;
+}
+
+.about-grid .container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.about-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: var(--box-shadow);
+}
+
+.about-card h2 {
+  color: var(--primary-color);
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checklist li {
+  position: relative;
+  padding-right: 28px;
+  margin: 10px 0;
+  color: var(--text-color);
+}
+
+.checklist li::before {
+  content: "✔";
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+/* Badges */
+.about-badges {
+  background: #fff;
+  padding: 50px 0;
+}
+
+.badges-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 22px;
+  text-align: center;
+}
+
+.badge {
+  background: #fff;
+  padding: 24px 14px;
+  border-radius: 16px;
+  box-shadow: var(--box-shadow);
+}
+
+.badge i {
+  font-size: 30px;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.badge h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+  color: var(--primary-color);
+}
+
+.badge p {
+  font-size: 14px;
+  color: var(--light-text);
+}
+
+/* CTA */
+.about-cta {
+  background: var(--background-color);
+  padding: 60px 0 80px;
+  text-align: center;
+}
+
+.about-cta h2 {
+  font-size: 28px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.about-cta p {
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .about-grid .container {
+    grid-template-columns: 1fr;
+  }
+  .badges-wrap {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .badges-wrap {
+    grid-template-columns: 1fr;
+  }
+  .about-hero h1 { font-size: 32px; }
+  .about-hero p  { font-size: 16px; }
+}
